@@ -31,7 +31,7 @@ bot.on('message', message => {
         .setTitle("EMBED")
         .setDescription("Ceci est un embed")
         .addField(".help","Page d'aide", true)
-        .addField("Embed01","Embed01 ! :) Suivez les tuto de [Bubbles](https://www.youtube.com/c/pzhcodage", true)
+        .addField("Embed01","Embed01 ! :) Suivez les tuto de [Bubbles](https://www.youtube.com/c/pzhcodage)", true)
         .setColor("0xFF8000")
         .SetFooter("Bon moment parmis nous ! :)")
     message.channel.sendEmbed(embed);
